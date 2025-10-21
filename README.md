@@ -15,7 +15,7 @@ If you launch the terminal from an already existing one (e.g. terminal 2), then 
 ```
 carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~/PX4-Autopilot$ cd
 carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~$ source .bashrc
-carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~$ ros2 run control position_controller.py 
+carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~$ ros2 ros2 launch control rover_bringup.launch.py 
 ```
 # What to do if you perform changes to the code (scripts)
 Reference the new script in the CMake file by adding it here:
