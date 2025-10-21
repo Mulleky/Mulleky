@@ -43,3 +43,12 @@ Source the bash file:
 ```
 carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~/ros2_ws$ source install/setup.bash
 ```
+# How to launch QGC
+Go to Downloads path
+```
+cd Downloads
+```
+Go into the directory and launch QGC as follows
+```
+carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~/Downloads$ ./QGroundControl-x86_64.AppImage 
+```
