@@ -1,9 +1,16 @@
-- 👋 Hi, I’m @Mulleky
-- 👀 I’m interested in aerospace, mechanical engineering, and how we can merge them with coding to come up with design and characterization tools
-- 💞️ I’m looking to collaborate on STEM projects to increase my skills, meet people and do great things with coding
-- 📫 How to reach me LinkedIn: Carlos Torre, carlostorresada@gmail.com
-
-<!---
-Mulleky/Mulleky is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# How to run the aquatttic SITL sim 
+Step 1
+Go to PX4 path in terminal 1 and then paste this
+```
+make px4_sitl gz_r1_rover
+```
+Step 2
+Open terminal 2 and paste this (no specific path required)
+```
+MicroXRCEAgent udp4 -p 8888
+```
+Step 3
+Open terminal 3 and paste this
+```
+ros2 launch control rover_bringup.launch.py
+```
