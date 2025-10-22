@@ -62,3 +62,7 @@ Go into the directory and launch QGC as follows
 ```
 carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~/Downloads$ ./QGroundControl-x86_64.AppImage 
 ```
+
+# Useful miscellaneous information
+Terminator (terminal):
+- https://cheatography.com/svschannak/cheat-sheets/terminator-ubuntu/pdf_bw/
