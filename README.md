@@ -17,6 +17,16 @@ carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~/PX4-Autopilot$ cd
 carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~$ source .bashrc
 carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~$ ros2 ros2 launch control rover_bringup.launch.py 
 ```
+Now that GZ, MicroXRCE, and rviz2 are running, we can now run in another terminal QGC (see below on how to open QGC)
+After QGC is open, run the lawnmower pattern as follows:
+- Open new terminal source bash file
+- Run file from cd like so:
+```
+ros2 run control blawnmower.py 
+```
+
+
+
 # What to do if you perform changes to the code (scripts)
 Reference the new script in the CMake file by adding it here:
 ```
