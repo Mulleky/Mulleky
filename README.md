@@ -10,13 +10,20 @@ Open terminal 2 and paste this (no specific path required)
 MicroXRCEAgent udp4 -p 8888
 ```
 Step 3
-To launch the "rover_bringup.launch.py" file you need a new terminal
-If you launch the terminal from an already existing one (e.g. terminal 2), then you first need to go to go to home directory, source the bash file, and launch the python file. This is done as follows
+To launch the "rover_bringup.launch.py" file you need a new terminal 3
+If you launch the terminal 3 from an already existing one (e.g. terminal 2), then you first need to go to go to home directory, source the bash file, and launch the python file. This is done as follows
 ```
 carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~/PX4-Autopilot$ cd
 carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~$ source .bashrc
 carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~$ ros2 ros2 launch control rover_bringup.launch.py 
 ```
+The "rovver_bringup" python file launches rivz2 which helps visualize the temperature field and how the drone performs the scanning pattern above it. To lacunh the patter file, do the following:
+
+Open terminal 4 (make sure the bash file is sourced) and launch the file from any directory like so
+```
+ros2 run control lawnmower.py
+```
+
 Now that GZ, MicroXRCE, and rviz2 are running, we can now run in another terminal QGC (see below on how to open QGC)
 After QGC is open, run the lawnmower pattern as follows:
 - Open new terminal source bash file
