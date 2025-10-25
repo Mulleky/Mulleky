@@ -17,12 +17,6 @@ carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~/PX4-Autopilot$ cd
 carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~$ source .bashrc
 carlos@carlos-Lenovo-Slim-Pro-7-14ARP8:~$ ros2 ros2 launch control rover_bringup.launch.py 
 ```
-The "rovver_bringup" python file launches rivz2 which helps visualize the temperature field and how the drone performs the scanning pattern above it. To lacunh the patter file, do the following:
-
-Open terminal 4 (make sure the bash file is sourced) and launch the file from any directory like so
-```
-ros2 run control lawnmower.py
-```
 
 Now that GZ, MicroXRCE, and rviz2 are running, we can now run in another terminal QGC (see below on how to open QGC)
 After QGC is open, run the lawnmower pattern as follows:
