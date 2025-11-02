@@ -26,7 +26,8 @@ Once RVIZ has launched, need to add the marker corresponding to our huge field. 
 Click "ADD" button in bottom left corner -> Click "By Topic" found in the new window -> Scroll down until /gaussian field/huge/marker
 
 This will show the randomly generated huge field
-<img width="867" height="869" alt="Screenshot from 2025-10-31 12-33-43" src="https://github.com/user-attachments/assets/6d4294dd-ae9c-480a-af02-e8484431688f" />
+
+<img width="350" height="350" alt="Screenshot from 2025-10-31 12-33-43" src="https://github.com/user-attachments/assets/6d4294dd-ae9c-480a-af02-e8484431688f" />
 
 Now that the field is added to RVIZ we need to open a new terminal to run our script that will record the tempeprature and coordinates data
 ```
