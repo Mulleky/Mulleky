@@ -37,3 +37,4 @@ We can now open a new terminal and run the lawnmower pattern. Note: sometimes wh
 ```
 ros2 run control blawnmower.py 
 ```
+The huge_temp_query.py file generates a CSV wuth the data which can then be used for analysis 
