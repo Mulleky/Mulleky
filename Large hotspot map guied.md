@@ -31,5 +31,9 @@ This will show the randomly generated huge field
 
 Now that the field is added to RVIZ we need to open a new terminal to run our script that will record the tempeprature and coordinates data
 ```
-
+ros2 run control huge_temp_query.py 
+```
+We can now open a new terminal and run the lawnmower pattern. Note: sometimes when running the scanning pattern nothing will happen, but running the command again usually corrects any issue
+```
+ros2 run control blawnmower.py 
 ```
