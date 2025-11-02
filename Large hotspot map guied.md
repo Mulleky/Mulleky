@@ -11,4 +11,16 @@ from the following:
 The remaining 4 regions will have a base temperature + noise
 
 ## How to run the SITL sim 
+Do the first three steps from the README.md file as described there:
+```
+make px4_sitl gz_r1_rover
+```
+```
+MicroXRCEAgent udp4 -p 8888
+```
+```
+ros2 launch control rover_bringup.launch.py 
+```
+
+
 
