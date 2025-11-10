@@ -1,0 +1,63 @@
+[0.013s] Invoking command in '/home/carlos/ros2_ws/build/control': AMENT_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/carlos/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/carlos/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/carlos/ros2_ws/src/control -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/control
+[0.360s] -- The C compiler identification is GNU 13.3.0
+[0.638s] -- The CXX compiler identification is GNU 13.3.0
+[0.660s] -- Detecting C compiler ABI info
+[0.758s] -- Detecting C compiler ABI info - done
+[0.766s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.766s] -- Detecting C compile features
+[0.767s] -- Detecting C compile features - done
+[0.778s] -- Detecting CXX compiler ABI info
+[0.886s] -- Detecting CXX compiler ABI info - done
+[0.893s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.893s] -- Detecting CXX compile features
+[0.894s] -- Detecting CXX compile features - done
+[0.897s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.029s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.122s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.156s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.167s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.274s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.277s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.383s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.403s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.429s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.505s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.519s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.533s] -- Found px4_msgs: 2.0.1 (/home/carlos/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[1.551s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.695s] -- Configuring done (1.7s)
+[1.700s] -- Generating done (0.0s)
+[1.702s] -- Build files have been written to: /home/carlos/ros2_ws/build/control
+[1.714s] Invoked command in '/home/carlos/ros2_ws/build/control' returned '0': AMENT_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/carlos/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/carlos/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/carlos/ros2_ws/src/control -DCMAKE_INSTALL_PREFIX=/home/carlos/ros2_ws/install/control
+[1.715s] Invoking command in '/home/carlos/ros2_ws/build/control': AMENT_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/carlos/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/carlos/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/carlos/ros2_ws/build/control -- -j16 -l16
+[1.783s] Invoked command in '/home/carlos/ros2_ws/build/control' returned '0': AMENT_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/carlos/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/carlos/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/carlos/ros2_ws/build/control -- -j16 -l16
+[1.784s] Invoking command in '/home/carlos/ros2_ws/build/control': AMENT_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/carlos/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/carlos/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/carlos/ros2_ws/build/control
+[1.793s] -- Install configuration: ""
+[1.793s] -- Installing: /home/carlos/ros2_ws/install/control/lib/control/position_controller.py
+[1.793s] -- Installing: /home/carlos/ros2_ws/install/control/lib/control/field.py
+[1.794s] -- Installing: /home/carlos/ros2_ws/install/control/lib/control/rover_monitor.py
+[1.794s] -- Installing: /home/carlos/ros2_ws/install/control/lib/control/temp_query.py
+[1.795s] -- Installing: /home/carlos/ros2_ws/install/control/share/control//launch
+[1.796s] -- Installing: /home/carlos/ros2_ws/install/control/share/control//launch/rover_bringup.launch.py
+[1.796s] -- Installing: /home/carlos/ros2_ws/install/control/share/control//config
+[1.797s] -- Installing: /home/carlos/ros2_ws/install/control/share/control//config/rover_viz.rviz
+[1.797s] -- Installing: /home/carlos/ros2_ws/install/control/share/control//urdf
+[1.798s] -- Installing: /home/carlos/ros2_ws/install/control/share/control//urdf/r1_rover.urdf
+[1.798s] -- Installing: /home/carlos/ros2_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[1.799s] -- Installing: /home/carlos/ros2_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[1.799s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/environment/ament_prefix_path.sh
+[1.799s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/environment/ament_prefix_path.dsv
+[1.799s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/environment/path.sh
+[1.799s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/environment/path.dsv
+[1.799s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/local_setup.bash
+[1.799s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/local_setup.sh
+[1.799s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/local_setup.zsh
+[1.800s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/local_setup.dsv
+[1.800s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/package.dsv
+[1.800s] -- Installing: /home/carlos/ros2_ws/install/control/share/ament_index/resource_index/packages/control
+[1.800s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/cmake/controlConfig.cmake
+[1.800s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/cmake/controlConfig-version.cmake
+[1.800s] -- Installing: /home/carlos/ros2_ws/install/control/share/control/package.xml
+[1.803s] Invoked command in '/home/carlos/ros2_ws/build/control' returned '0': AMENT_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/carlos/ros2_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/carlos/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/carlos/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/carlos/ros2_ws/build/control
