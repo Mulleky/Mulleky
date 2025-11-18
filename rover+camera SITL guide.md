@@ -16,3 +16,6 @@ ros2 run ros_gz_bridge parameter_bridge \
 ```
 ros2 launch control rover_camera.bringup.launch.py
 ```
+
+## Things to correct
+* When RVIZ2 is launched the link for the camera joint don't work
