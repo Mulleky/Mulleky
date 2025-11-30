@@ -1,9 +1,0 @@
-/home/carlos/ros2_ws/build/control/CMakeFiles/uninstall.dir
-/home/carlos/ros2_ws/build/control/CMakeFiles/control_uninstall.dir
-/home/carlos/ros2_ws/build/control/CMakeFiles/test.dir
-/home/carlos/ros2_ws/build/control/CMakeFiles/edit_cache.dir
-/home/carlos/ros2_ws/build/control/CMakeFiles/rebuild_cache.dir
-/home/carlos/ros2_ws/build/control/CMakeFiles/list_install_components.dir
-/home/carlos/ros2_ws/build/control/CMakeFiles/install.dir
-/home/carlos/ros2_ws/build/control/CMakeFiles/install/local.dir
-/home/carlos/ros2_ws/build/control/CMakeFiles/install/strip.dir
