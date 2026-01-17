@@ -1,1 +1,0 @@
-/home/carlos/ros2_ws/src/px4_msgs/msg/GpioOut.msg

@@ -1,1 +1,0 @@
-/home/carlos/ros2_ws/build/px4_msgs/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/rover_rate_setpoint__rosidl_typesupport_fastrtps_cpp.hpp
